@@ -55,7 +55,9 @@ $$x - 2y = 6$$
 $$ x - y = 4 $$
 $$ x + y = 0 $$
 could be represented using a matrix as
-$$ \begin{bmatrix} 1 & -2 & 6 \\ 1 & -1 & 4\\ 1 & 1 & 0\end{bmatrix}$$
+
+$$ \begin{bmatrix} 1 & -2 & 6 \\\ 1 & -1 & 4 \\\ 1 & 1 & 0 \end{bmatrix}$$
+
 This matrix has three rows and three columns. Thus, its **order** will be $3 \times 3$.
 A matrix with one row or one column could be called a matrix or vector interchangeably.
 
