@@ -27,6 +27,8 @@ For a glimpse into my journey and the projects I've been involved in, feel free 
     -  <a target=_blank href="https://www.avni.sh/posts/go/file-handling-in-go/">File Handling in Go</a>
     -  <a target=_blank href="https://www.avni.sh/posts/go/concurrency-in-go/">Concurrency in Go</a>
     -  <a target=_blank href="https://www.avni.sh/posts/go/rest-api-requests-in-go/">REST API Requests in Go</a>
+-  <a target=_blank href="https://www.avni.sh/posts/linear-algebra/">Linear Algebra</a>
+    -  <a target=_blank href="https://www.avni.sh/posts/linear-algebra/tensors/">Tensors, Vectors, and Matrices</a>
 -  <a target=_blank href="https://www.avni.sh/posts/dsa/">Data Structures and Algorithms</a>
     -  <a target=_blank href="https://www.avni.sh/posts/dsa/time-complexity/">Time Complexity</a>
     -  <a target=_blank href="https://www.avni.sh/posts/dsa/arrays-strings-hashmaps/">Arrays, Strings, and HashMaps</a>
