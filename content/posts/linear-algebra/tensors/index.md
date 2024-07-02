@@ -1,12 +1,12 @@
 ---
 author: "Avnish"
-title: "Tensors, Vectors, and Matrices"
+title: "Tensors"
 date: "2024-07-03"
 description: "A tensor is an array of data expanding in multiple independent dimensions."
 tags: ["math", "linear-algebra", "tensors", "vectors", "matrices"]
 categories: ["Math", "Linear Algebra"]
 series: ["Linear Algebra"]
-aliases: ["tensors-vectors-matrices"]
+aliases: ["tensors"]
 cover:
   image: "tensors-cover.png"
   linkFullImages: true
