@@ -7,6 +7,13 @@ tags: ["math", "linear-algebra", "tensors", "vectors", "matrices"]
 categories: ["Math", "Linear Algebra"]
 series: ["Linear Algebra"]
 aliases: ["tensors-vectors-matrices"]
+cover:
+  image: "tensors-cover.png"
+  linkFullImages: true
+  alt: "A tensor is an array of data expanding in multiple independent dimensions."
+  caption: ""
+  relative: false
+  responsiveImages: false
 ShowToc: true
 TocOpen: false
 comments: false
