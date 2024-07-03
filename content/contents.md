@@ -26,6 +26,8 @@ summary: "Index of all content"
     -  <a target=_blank href="/posts/go/file-handling-in-go/">File Handling in Go</a>
     -  <a target=_blank href="/posts/go/concurrency-in-go/">Concurrency in Go</a>
     -  <a target=_blank href="/posts/go/rest-api-requests-in-go/">REST API Requests in Go</a>
+-  <a target=_blank href="/posts/linear-algebra/">Linear Algebra</a>
+    -  <a target=_blank href="/posts/linear-algebra/tensors/">Tensors</a>
 -  <a target=_blank href="/posts/dsa/">Data Structures and Algorithms</a>
     -  <a target=_blank href="/posts/dsa/time-complexity/">Time Complexity</a>
     -  <a target=_blank href="/posts/dsa/arrays-strings-hashmaps/">Arrays, Strings, and HashMaps</a>
