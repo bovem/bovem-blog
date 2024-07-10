@@ -1,7 +1,7 @@
 [![Blog Cover Image](./static/avnish-cover.png)](https://www.avni.sh/)
 
 Hi, I’m Avnish.
-As an Open Source Developer working at Red Hat, I strive to share my knowledge on computer science, mathematics, and technology through articles. If you'd like to stay in the loop with the latest content from this blog, I invite you to subscribe to my <b><a target=_blank href="https://www.avni.sh/index.xml">RSS feed</a></b>. 
+As a Software Developer working at Autodesk, I strive to share my knowledge on computer science, mathematics, and technology through articles. If you'd like to stay in the loop with the latest content from this blog, I invite you to subscribe to my <b><a target=_blank href="https://www.avni.sh/index.xml">RSS feed</a></b>. 
 For a glimpse into my journey and the projects I've been involved in, feel free to check my <b><a target=_blank href="https://www.avni.sh/Resume-AvnishPal.pdf">resume</a></b>. 
 
 
@@ -29,6 +29,7 @@ For a glimpse into my journey and the projects I've been involved in, feel free 
     -  <a target=_blank href="https://www.avni.sh/posts/go/rest-api-requests-in-go/">REST API Requests in Go</a>
 -  <a target=_blank href="https://www.avni.sh/posts/linear-algebra/">Linear Algebra</a>
     -  <a target=_blank href="https://www.avni.sh/posts/linear-algebra/tensors/">Tensors</a>
+    -  <a target=_blank href="https://www.avni.sh/posts/linear-algebra/vectors/">Vectors</a>
 -  <a target=_blank href="https://www.avni.sh/posts/dsa/">Data Structures and Algorithms</a>
     -  <a target=_blank href="https://www.avni.sh/posts/dsa/time-complexity/">Time Complexity</a>
     -  <a target=_blank href="https://www.avni.sh/posts/dsa/arrays-strings-hashmaps/">Arrays, Strings, and HashMaps</a>
