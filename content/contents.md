@@ -30,6 +30,7 @@ summary: "Index of all content"
     -  <a target=_blank href="/posts/linear-algebra/tensors/">Tensors</a>
     -  <a target=_blank href="/posts/linear-algebra/vectors/">Vectors</a>
     -  <a target=_blank href="/posts/linear-algebra/matrices/">Matrices</a>
+    -  <a target=_blank href="/posts/linear-algebra/gaussian-elimination/">Gaussian Elimination</a>
 -  <a target=_blank href="/posts/dsa/">Data Structures and Algorithms</a>
     -  <a target=_blank href="/posts/dsa/time-complexity/">Time Complexity</a>
     -  <a target=_blank href="/posts/dsa/arrays-strings-hashmaps/">Arrays, Strings, and HashMaps</a>
