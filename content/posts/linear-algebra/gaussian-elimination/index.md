@@ -2,7 +2,7 @@
 author: "Avnish"
 title: "Gaussian Elimination"
 date: "2024-07-16"
-description: "The Gaussian Elimination algorithm is used to find the solution of a system of linear equations by performing row-wise operations on the matrix."
+description: "The Gaussian Elimination algorithm is used to find the solution of a system of linear equations by performing row-wise operations on its matrix."
 tags: ["math", "linear-algebra", "matrices", "matrix-multiplication", "linear-equations", "gaussian-elimination"]
 categories: ["Math", "Linear Algebra"]
 series: ["Linear Algebra"]
@@ -19,7 +19,7 @@ Let's consider a problem where we have to buy oranges and apples but under the f
 * The difference between 5X the number of oranges and 3X the number of apples should be 7.
 
 # System of Linear Equations
-These conditions could be represented using the following equations
+These conditions could be modeled using the following equations
 
 $$2x-y=3\tag{1}$$
 
@@ -49,7 +49,7 @@ $$\begin{bmatrix} 2 \\\ 4 \\\ 5 \end{bmatrix} x \ + \begin{bmatrix} -1 \\\ 1 \\\
 this is the **column picture** of the system of linear equations.
 
 # Solution of Linear Equations
-The value of variables that satisfies all equations is called the **solution** of the system of linear equations.
+The value of variables that satisfies all equations is called the **solution** (or solutions if there are multiple) of the system of linear equations.
 
 ## One Solution
 If we plot equations $(1)$, $(2)$, and $(3)$ on a 2D graph
@@ -81,7 +81,7 @@ $$2x+6y=18$$
 Thus, the equation $(5)$ is just the equation $(4)$ scaled up by 2.
 
 ## No Solution
-It is also possible that for a system of linear equations, no value of variable satisfies all the equations like the following.
+It is also possible for a system of linear equations that none of the variable values satisfy all the equations, like the following.
 
 $$x+y=4 \tag{6}$$
 
@@ -163,7 +163,7 @@ Initially, the first element in the <a href="/posts/linear-algebra/matrices/#dia
 $$\begin{bmatrix} {\color{blue} 2} & -1 & | & 3 \\\ 4 & 1 & | & 9 \\\ 5 & -3 & | & 7\end{bmatrix}$$
 
 After that, we move on to the next pivot (next element in the diagonal) and repeat the process until we obtain the row echelon form.
-If the next pivot element candidate is zero then we won't be able to reduce the elements below it to zero by just scalar multiplication and matrix addition/subtraction. In such cases, we perform a swap between the rows of matrices to obtain a non-zero element as the pivot.
+If the next pivot element candidate is zero then we won't be able to reduce the elements below it to zero by just scalar multiplication and matrix addition/subtraction. In such cases, we perform a swap between the next row and any other row below it to obtain a non-zero element as the pivot.
 
 If we multiply row 1 of the augmented matrix with the scalar value ${5 \over 2}$ 
 
@@ -246,7 +246,7 @@ The number of non-zero elements in the diagonal ($1$) is lower than the number o
 
 After converting the row echelon form back to the row picture we get back the equation $(4)$ which can have infinitely many solutions like $(1, 2)$, $(0, 3)$, $(9, 0)$, etc.
 
-## No Solutions
+## No Solution
 Following is the application of Gaussian elimination on the system of linear equations $(6)$, $(7)$, and $(8)$
 * Creating the augmented matrix.  
 
