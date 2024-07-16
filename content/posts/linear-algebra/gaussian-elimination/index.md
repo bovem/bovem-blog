@@ -2,7 +2,7 @@
 author: "Avnish"
 title: "Gaussian Elimination"
 date: "2024-07-16"
-description: ""
+description: "The Gaussian Elimination algorithm is used to find the solution of a system of linear equations by performing row-wise operations on the matrix."
 tags: ["math", "linear-algebra", "matrices", "matrix-multiplication", "linear-equations", "gaussian-elimination"]
 categories: ["Math", "Linear Algebra"]
 series: ["Linear Algebra"]
