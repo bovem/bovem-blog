@@ -22,23 +22,25 @@ math: true
 
 While programming allows us to create virtually anything, the true test of performance arises when we deploy the same code on a significantly larger scale. 
 
-**Time Complexity** ($T(n)$) is a function that estimates the execution time of an algorithm given the amount of data to be processed as its input. It is a common benchmark used to measure an algorithm's performance.
+**Time Complexity** ($T(n)$) is a function that estimates the execution time of an algorithm given the amount of data to be processed as its input ($n$). It is a common benchmark used to measure an algorithm's performance.
 
 # Bounds of Time Complexity
-The output of the time complexity function will be a close estimate of an algorithm's runtime yet it does not consider other characteristics of the data that could affect runtime.
+The output of the time complexity function will be a close estimate of an algorithm's runtime given the size of its input but it does not consider other characteristics of the input that could affect its runtime.
 
-Some algorithms perform best when the input data is sorted in ascending order and worst when sorted in descending order. That's why we have bounds on the time complexity function, a range starting from best-case to worst-case execution time for the same amount of input data.
+Some algorithms perform best when the input data is sorted in ascending order and worst when sorted in descending order or vice versa. That's why we have bounds on the time complexity function, a range starting from best-case to worst-case execution time for the same input size.
 
 ## Upper Bound ($O$)
-The "big O" ($O$) represents the upper bound (worst case scenario) on the time complexity function i.e. for an input dataset of size $n$ the algorithm's time complexity couldn't be worse than $O(n)$.
+The "big O" ($O$) represents the upper bound (worst-case scenario) on the time complexity function i.e. for an input of size $n$ the algorithm can't take more than $O(n)$ time to provide  the solution.
 
 ## Lower Bound ($\Omega$)
-The "big Omega" ($\Omega$) represents the lower bound (best case scenario) on the time complexity function i.e. for an input dataset of size $n$ the algorithm's time complexity couldn't be better than $\Omega(n)$.
+The "big Omega" ($\Omega$) represents the lower bound (best-case scenario) on the time complexity function i.e. for an input of size $n$ the algorithm can't take less than $O(n)$ time to provide the solution.
 
 ## Expected Case ($\Theta$)
-The "big Theta" ($\Theta$) represents the case where both upper and lower bounds are at the same point (expected case scenario) i.e. for an input dataset of size $n$ the algorithm's time complexity couldn't get better or worse than $\Theta(n)$.
+The "big Theta" ($\Theta$) represents the case where both upper and lower bounds are at the same point (expected case scenario) i.e. for an input of size $n$ the algorithm's time complexity couldn't get better or worse than $\Theta(n)$.
 
 Big $O$ is the preferred time complexity function for an algorithm's runtime analysis because it provides a conservative estimate and its result is independent of factors like hardware performance, characteristics of data, compiler optimization, etc.
+
+While choosing among different algorithms to perform a task we aim for the lowest worst-case time complexity.
 
 # Common Time Complexity Functions
 The runtime of recurring patterns in programming could be represented by common time complexity functions. This helps us estimate the time complexity of the entire program.
@@ -308,21 +310,26 @@ func main(){
 
 The solution to the <a href="/posts/dsa/travelling-salesman-problem/" target="_blank">Travelling Salesman Problem</a> has factorial time complexity.
 
-# Comparing Algorithm Performance Using Time Complexity
-In a hypothetical scenario, we have benchmark sorting performance of different algorithms by their time complexity. 
+# Comparing Algorithm Performance Using Time Complexity 
+Let's say we've been provided with a set of algorithms and we have to choose the one which scales best with respect to the growing input size. 
 
-Assuming the output of the time complexity function is the algorithm's execution time in seconds. The runtime of a sorting algorithm on 100 elements with 
-* $O(\log_2{ n})$ time complexity is 6.644 seconds
-* $O(n)$ time complexity is 100 seconds 
-* $O(n \log_2 n)$ time complexity is 664.4 seconds
-* $O(n^2)$ time complexity is 10000 seconds (2.7 hours)
-* $O(2^n)$ time complexity is $1.26 \times 10^{30}$ seconds ($3.99 \times 10^{22}$ years)
-* $O(n!)$ time complexity is $9.33 \times 10^{157}$ seconds ($2.9585 \times 10^{150}$ years)
+Assuming the output of the function $O()$ is an algorithm's worst-case execution time in seconds. As we increase the input size from $1$ to $100$ the runtime of algorithms will scale as follows:
+
+| Algorithm    | Time Complexity | Runtime ($n=2$) | Runtime ($n=10$) | Runtime ($n=100$)       |
+|--------------|-----------------|-----------------|------------------|-------------------------|
+| Logarithmic  | $O(log_2{n})$   | $1$s            | $3.321$s         | $6.644$s                |
+| Linear       | $O(n)$          | $2$s            | $10$s            | $100$s                  |
+| Linearithmic | $O(nlog_2{n})$  | $2$s            | $33.21$s         | $664.4$s                |
+| Quadratic    | $O(n^2)$        | $4$s            | $100$s           | $10000$s                |
+| Exponential  | $O(2^n)$        | $4$s            | $1024$s          | $1.26 \times 10^{30}$s  |
+| Factorial    | $O(n!)$         | $2$s            | $3628800$s       | $9.33 \times 10^{157}$s |
+
+With the same amount of computational power and input size ($100$), an algorithm with $O(2^n)$ time complexity will finish the task in $3.99 \times 10^{22}$ years. In contrast, an algorithm with $O(n \log_2{n})$ time complexity will take only $664.4$ seconds. This illustrates the importance of performing a time complexity analysis of all possible solutions while solving a problem.
+
+If we plot the worst-case time complexity $O(n)$ against the input size $n$ we can see that algorithms with logarithmic or linear time complexity scale better relative to algorithms with quadratic or exponential time complexity i.e. their runtime grows relatively slow as the input size increases.
 
 <p align="center"><img src="Time Complexity.drawio.png" alt="Time Complexity Comparison of Algorithms"></p>
 <p align="center"><small>Time Complexity Comparison of Algorithms</small></p>
-
-With the same computation power, an algorithm with $O(2^n)$ time complexity will sort 100 elements in $3.99 \times 10^{22}$ years while an algorithm with $O(n \log_2{n})$ time complexity will take only 664.4 seconds .
 
 <hr>
 Thank you for taking the time to read this blog post! If you found this content valuable and would like to stay updated with my latest posts consider subscribing to my <a href="https://www.avni.sh/index.xml" target="_blank">RSS Feed</a>.    
