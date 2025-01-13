@@ -87,6 +87,8 @@ params:
         Title: "Hi, I'm Avnish"
         Content: >
 
+           - I'm a Software Developer at Autodesk, passionate about exploring the intersections of computer science, mathematics, and technology. Through this blog, I share insights and discoveries from my professional journey, breaking down complex concepts into accessible articles. Explore my <b><a href="/posts/projects/" target=_blank>project portfolio</a></b> to see my work in action, or check out my <b><a target=_blank href="resume/latest/Resume_Avnish_Pal.pdf">resume</a></b> to learn more about my experience. To never miss a new article, subscribe to my <b><a target=_blank href="index.xml">RSS feed</a></b>.
+           
            - As a Software Developer working at Autodesk, I strive to share my knowledge on computer science, mathematics, and technology through articles. If you'd like to stay in the loop with the latest content from this blog, I invite you to subscribe to my <b><a target=_blank href="index.xml">RSS feed</a></b>. 
            
            - For a glimpse into my journey and the <b><a href="/posts/projects/" target=_blank>projects</a></b> I've been involved in, feel free to check my <b><a target=_blank href="resume/latest/Resume_Avnish_Pal.pdf">resume</a></b>. 
